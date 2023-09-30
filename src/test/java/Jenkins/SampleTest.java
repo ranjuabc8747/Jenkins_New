@@ -9,4 +9,9 @@ public class SampleTest {
 	{
 		System.out.println("---sample run---");
 	}
+	@Test
+	public void run()
+	{
+		System.out.println("   run2");
+	}
 }
