@@ -28,10 +28,10 @@ public class BaseClass {
 		dLib.connectToDB();
 		System.out.println("------connect to DB---------");
 	}
-@Parameters(value="chrome")
+@Parameters("BROWSER")
 	@BeforeClass
-	public void configBC() throws Throwable {
-		String BROWSER = fLib.getPropertyKeyValue("browser");
+	public void configBC(String BROWSER) throws Throwable {
+		//String BROWSER = fLib.getPropertyKeyValue("browser");
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 			System.out.println("--launching chromebrowser--");
