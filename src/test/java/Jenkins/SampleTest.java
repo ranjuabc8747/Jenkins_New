@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.foodordering.genericutility.BaseClass;
 
-public class SampleTest extends BaseClass {
+public class SampleTest {
 
 	@Test(groups="smoke")
 	public void sampletest()
