@@ -1,8 +1,11 @@
 package Jenkins;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class SampleTest {
+import com.foodordering.genericutility.BaseClass;
+
+public class SampleTest extends BaseClass {
 
 	@Test
 	public void sampletest()
