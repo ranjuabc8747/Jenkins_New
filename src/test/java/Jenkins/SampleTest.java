@@ -15,6 +15,6 @@ public class SampleTest {
 	@Test(groups="regression")
 	public void run()
 	{
-		System.out.println("   run2");
+		System.out.println(" ---------  run2");
 	}
 }
